@@ -13,6 +13,7 @@ $(document).ready(() => {
 
 
 function getPokemonInfo (pokemonId) {
+    $('.pokemon-details').html('<p> Loading... </p>');
 
     // $.ajax() is a jQuery function
     $.ajax(
